@@ -128,8 +128,8 @@ a{
 
 .contact-me-sidebar{
     border-right: 5px solid darkslateblue;
-    height: 15rem;
-    width:22.5%;
+    height: 9rem;
+    width:21%;
     font-size: 70px;
     color:#2d3339;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -143,6 +143,22 @@ a{
     margin-right: 1rem;
     margin-left: 7rem;
 }
+
+.contact-info{
+    margin-top: 5rem;
+}
+.contact-links li{
+    list-style-type: none;
+    list-style: none;
+    flex-direction: column;
+    display: inline;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-top: 5rem;
+    
+}
+
 @media only screen and (max-width: 600px) {
     h1 {
       font-size: 25px;
