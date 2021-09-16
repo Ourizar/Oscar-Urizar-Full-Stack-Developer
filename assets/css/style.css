@@ -1,0 +1,126 @@
+  /* .banner-pic {
+    
+     background: url('../../assets/Images/BannerHW2.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 25px;
+     background-size: auto;
+     height: 10rem;
+    width: 50rem; 
+     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: blue; 
+    }  */
+  
+  /* .banner-text {
+     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: red;
+    height: 30px;
+  }  */
+ body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }   
+
+  header{
+    display:flex;
+    background-color: #2d3339 ;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+  
+h1{
+    background-color: darkturquoise;
+    width:25%;
+    height:50%;
+    padding: 3px;
+    color:#2d3339;
+    text-decoration-color: #2d3339;
+    text-align:right;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: flex-end;
+}
+
+.links li {
+    list-style-type: none;
+    list-style: none;
+    flex-direction: column;
+    display: inline;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    
+}
+
+a{
+    text-decoration: underline;
+    color:darkturquoise;
+}
+
+.banner-pic {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('../../assets/Images/BannerHW2.jpg');
+    background-size: cover;
+    justify-content: flex-end;
+}
+    
+.cool-title{
+    background-color: darkturquoise;
+    color:#2d3339;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.about-me {
+    display: flex; 
+    margin-bottom: 5rem;
+}
+
+.about-me-paragraph {
+    color: #2d3339;
+    font-size: large;
+    margin-left: 3rem;
+}
+
+
+.sidebar{
+    border-right: 5px solid darkslateblue;
+    height: 15rem;
+    width:30%;
+    font-size: 80px;
+    color:#2d3339;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+    /* flex: 1; */
+    
+}
+ 
+.side-title {
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 11rem;
+}
+
+.work{
+    
+}
+ 
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 25px;
+    }
+  }
