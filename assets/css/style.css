@@ -99,7 +99,7 @@ a{
     border-right: 5px solid darkslateblue;
     height: 15rem;
     width:30%;
-    font-size: 80px;
+    font-size: 70px;
     color:#2d3339;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: flex-end;
@@ -115,6 +115,34 @@ a{
     margin-left: 11rem;
 }
 
+.work-sidebar{
+    border-right: 5px solid darkslateblue;
+    height: 15rem;
+    width:21%;
+    font-size: 70px;
+    color:#2d3339;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+}
+
+.contact-me-sidebar{
+    border-right: 5px solid darkslateblue;
+    height: 15rem;
+    width:22.5%;
+    font-size: 70px;
+    color:#2d3339;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+}
+
+.contact-me-side-title {
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 7rem;
+}
 @media only screen and (max-width: 600px) {
     h1 {
       font-size: 25px;
